@@ -1,0 +1,424 @@
+body {
+    margin: 0;
+}
+
+.container-fluid {
+    width: 100vw;
+	background-color: #FFF;
+}
+
+#head {
+	position: fixed;
+	width: 100%;
+    z-index: 5;
+	background-color: #9ACD32; 
+	border-bottom: solid 1px #ccc;
+}
+
+header {
+    padding: 0;
+    margin: 0 0 1.25rem;
+}
+
+#head h1 {
+    color: #FFF;
+}
+
+nav ul li {
+    padding: 5px .625rem;
+}
+
+#head a {
+    color: #fff; 
+    font-size: 1rem;
+}
+
+#search {
+	text-align: right;
+}
+
+#search input {
+	border: 1px solid #dcdcdc;
+	padding: 0 .125rem .125rem;
+	font-size: .75rem;
+}
+
+#search input[type="search"] {
+	width: 110px;
+	margin-right: 0;
+    text-align: center;
+}
+
+#search input[type="submit"] {
+	width: 50px;
+	margin-left: 0;
+}
+
+#main {
+    position: relative;
+    top: 90px;
+	margin: 1.25rem 0;
+}
+
+#main h2 {
+    font-weight: 700;
+	padding-bottom: 0;
+    color: #9ACD32;
+}
+
+#main h6 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.accordionNav h4 {
+    font-size: 1.125rem;
+}
+
+.accordionPanelTab {
+    color: #FFF;
+	margin: 0;
+	cursor: pointer;
+    padding-left: 5px;
+	background-color: #9ACD32;
+}
+
+.accordionPanelContent {
+	overflow: hidden;
+	margin: 0px;
+    font-size: .875rem;
+	padding: 30px 30px 5px;
+    border: 1px solid #9ACD32;
+    background-color: #f5f5f5;
+}
+
+.accordionPanelContent img {
+    width: 100%;
+    height: auto;
+    padding: 5px 0;
+}
+
+#articles {
+    position: relative;
+    top: 90px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+#main a, #articles a, #section a {
+	color: #0099FF;
+}
+
+h3 {
+    color: #9ACD32;
+    text-align: center;
+    padding-bottom: .5rem;
+    margin: .625rem 0 .25rem;
+}
+
+#section {
+    position: relative;
+    top: 90px;
+    margin: 1.25rem 0;
+}
+
+#related {
+    padding: 20px 10px;
+    margin: .3125rem 0 2.5rem;
+    border: 1px solid #d3d3d3;
+}
+
+#letter {
+    padding: 0;
+    margin: 1.25rem 0;
+}
+
+#need p {
+    font-size: 1.875rem;
+}
+
+#need, #newsletter {
+    text-align: center;
+	border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #d3d3d3;
+    background-color: #f5f5f5;
+}
+
+input {
+    border: 1px solid #d3d3d3;
+    width: 70%;
+    padding: 2px 5px;
+	border-radius: 5px;
+}
+
+input[placeholder] {
+    color: #000;
+    text-align: center;
+}
+
+#submit, #reset, #submitBtn {
+    border: none;
+    color: #FFF;
+    text-align: center;
+	border-radius: 5px;
+    margin: 0 5px;
+    padding-bottom: 2px;
+    background-color: #9ACD32; 
+}
+
+#submit, #reset {
+    width: 40%;
+}
+
+#submitBtn {
+    width: 70%;
+}
+
+input[type="radio"] {
+	margin-left: 0;
+	width: 30px;
+}
+
+#global_form label {
+    width: 150px;
+    text-align: left;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#foot {
+    position: relative;
+    top: 70px;
+	width: 100%; 
+    text-align: center; 
+    margin: 2.5rem 0 0;
+    padding: 20px 0;
+    font-weight: 500;
+    background-color: #9ACD32;
+}
+
+#foot p {
+	color: #fff;
+    font-size: 1rem;
+    padding: 0;
+    margin-bottom: 7px;         
+}
+
+#foot a {
+	color: #fff;
+}
+
+#foot ul {
+    padding: 0;
+    margin-bottom: 7px;
+}
+
+#foot ul li {
+    font-size: 1rem;
+    padding: 0 .625rem;
+	display: inline-block;
+}
+
+#social img {
+    margin: 0;
+	display: inline;
+    padding: 0 10px;
+}
+
+@media only screen and (min-width: 320px) {
+
+
+#head h1 {
+    font-size: 1.875rem;
+    padding-left: 0;
+}
+
+#nav button {
+    margin-right: 0;
+    padding: 0;
+}
+
+header button img {
+	border-radius: 3px;
+    margin-right: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+#search {
+    display: none;
+}
+
+#main h2 {
+    font-size: 1.625rem;
+}
+
+#main h6 {
+    font-size: .75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.375rem;
+    text-align: center;
+}
+
+#mainIntro {
+    text-align: center;
+    margin: .625rem 0 2.5rem;
+}
+
+#accordion {
+    margin-top: 1.25rem;
+}
+
+#main img, #articles img {
+    width: 100%;
+	margin: 0 auto;
+    border-radius: 10px;
+    padding-bottom: .3125rem;  
+}
+
+p {
+    font-size: 1.125rem;
+}
+}
+
+@media only screen and (min-width: 576px) {
+
+    #mainIntro, #accordion, #articles {
+        float: left;
+    }
+
+    #mainIntro {
+        padding: 50px 30px 0 0;
+    }
+
+    #articles, #section {
+        position: relative;
+        top: 70px;
+        margin: 30px 0 20px;
+    }    
+
+    #articles, #related, #letter {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #letter {
+        gap: 20px;
+    }
+
+    #need p {
+        font-size: 1.625rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    nav {
+        margin: 0;
+        text-align: center;
+        padding: .625rem 0 0;
+    }
+    
+    #head h1 {
+        font-size: 2em;
+    }
+
+    #main {
+        position: relative;
+        top: 60px;
+    }
+
+    #accordion {
+        padding-left: 30px;
+    }
+
+.accordionPanelContent img {
+    width: 50%;
+    float: left;
+    padding: 5px;
+}
+
+#main img, #articles img {
+    padding: 0 0 .9375rem;  
+}
+}
+
+@media only screen and (min-width: 992px) {
+
+    #head {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+    
+    #head h1 {	
+        padding-right: 200px;
+    }
+
+    #navbar {
+        padding-left: 0;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        padding: 15px .5rem;
+    }
+
+    .active > a {
+        border-bottom: 3px solid #fff;
+    }
+
+    #search {
+        display: block;
+        padding-left: 30px;
+    }
+
+    .accordionPanelContent img {
+        width: 30%;
+    }
+
+    #main, #articles, #section, #foot {
+        position: relative;
+        top: 100px;
+        float: left;
+    }
+
+    #mainIntro {
+        font-size: 1.375rem;
+        padding: 100px 30px 0 0;
+    }
+
+    #need p {
+        font-size: 1.75rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {	
+
+	#head h1 {	
+        padding-right: 200px;
+    }
+
+    #navbar {
+        padding-left: 0;
+    }
+    
+    #search {
+        padding-left: 30px;
+    }
+}
